@@ -1,0 +1,25 @@
+.header__lang-links {
+    list-style-type: none;
+    margin: 0;
+    margin-top: calc(46px - 28px);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    padding: 0;
+}
+
+.header__lang-links:hover {
+    cursor: url('../../../images/cursor.png'), default;
+    opacity: 0.8;
+    transition: opacity .3s ease-in;
+}
+
+@media screen and (max-width: 500px) {
+    .header__lang-links {
+        margin-top: calc(30px - 16px);   
+        font-size: 18px;
+        line-height: 20px;                  
+    }                
+}

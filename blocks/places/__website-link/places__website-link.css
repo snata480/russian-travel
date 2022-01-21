@@ -1,0 +1,16 @@
+.places__website-link {
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.places__website-link:hover {
+    cursor: url('../../../images/cursor.png'), default;
+    opacity: 0.8;
+    transition: opacity .3s ease-in;
+}

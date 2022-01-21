@@ -1,0 +1,10 @@
+.cover__link {
+    text-decoration: none;
+    z-index: 1;
+}
+
+.cover__link:hover {
+    cursor: url('../../../images/cursor.png'), default;
+    opacity: 0.8;
+    transition: opacity .3s ease-in;
+}

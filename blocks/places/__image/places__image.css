@@ -1,0 +1,14 @@
+.places__image {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .places__image {
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+}
