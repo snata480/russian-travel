@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 500px) {
     .header__lang-links {
-        margin-top: calc(30px - 16px);   
+        margin-top: calc(30px - 16px);
         font-size: 18px;
-        line-height: 20px;                  
+        line-height: 20px;
     }                
 }
